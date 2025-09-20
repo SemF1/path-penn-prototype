@@ -1,0 +1,96 @@
+/* General reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+}
+
+/* Penn Header */
+.penn-header {
+  background: #011F5B; /* Penn dark blue */
+  color: white;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  height: 25px;
+}
+
+.welcome {
+  font-size: 14px;
+}
+
+/* Red Search Bar */
+.search-bar {
+  background: #990000; /* Penn red */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+/* Content */
+main {
+  padding: 15px;
+}
+
+.found {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.course p {
+  margin: 5px 0;
+}
+
+/* Schedule Grid */
+.schedule {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 25px 10px;
+  height: 80px;
+}
+
+.highlight {
+  background: #2b6eff;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
